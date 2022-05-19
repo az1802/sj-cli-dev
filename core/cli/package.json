@@ -1,0 +1,46 @@
+{
+  "name": "sj-cli-dev",
+  "version": "0.20.0",
+  "description": "> TODO: description",
+  "author": "sunj <317474545@qq.com>",
+  "homepage": "https://github.com/az1802/sj-main-project#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "sj-cli-dev": "bin/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@sj-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@sj-cli-dev/log": "file:../../utils/log",
+    "@sj-cli-dev/utils": "file:../../utils/utils",
+    "@sj-cli-dev/exec": "file:../exec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az1802/sj-main-project.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/az1802/sj-main-project/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.2.0",
+    "dotenv": "^16.0.1",
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.2",
+    "path-exists": "4.0.0",
+    "root-check": "1.0.0",
+    "semver": "^7.3.7",
+    "user-home": "2.0.0"
+  }
+}
